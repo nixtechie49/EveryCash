@@ -12,13 +12,7 @@ sudo apt-get update
 
 sudo apt-get upgrade
 
-2. Create install directory
-
-mkdir everycash
-
-cd everycash
-
-3. Make sure you have dependencies:
+2. Make sure you have dependencies:
 
 sudo apt-get install -y build-essential python-dev gcc g++ git cmake libboost-all-dev
 
@@ -34,7 +28,9 @@ sudo apt-get install git
 
 git clone https://github.com/hashratez/everycash.git
 
-6. From your directory
+6. A new directory will be created for you install "everycash"
+
+cd everycash
 
 mkdir build
 
@@ -44,21 +40,25 @@ cmake ..
 
 make
 
-7.  Open ports on your firewall
+7.  Open ports on your firewall (if you don't have one ufw is great)
 P2P Port: 18111
 RPC Port: 18112
 
 8. Start Everycash by navigating to directory:
 
-cd /everycash/build/src
+cd ~/everycash/build/src
 
 Start the daemon:
 cd 
 ./EveryCashd
 
-9. Create Wallet
+9. Create new wallet & address
 
-....
+cd ~/everycash/build/scr
+
+./zedwallet
+
+(follow the simple instructions--make sure save your KEYS AND NEUMONIC SEED!)
 
 10. Start mining!
 

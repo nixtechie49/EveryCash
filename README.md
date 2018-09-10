@@ -1,12 +1,18 @@
 Node Build
+
 This install works for Ubuntu 16.04 (CLEAN OS)
 
-1. Make directory for install and cd to the directory, make sure the user has SUDO
-FYI: https://www.digitalocean.com/community/tutorials/how-to-create-a-sudo-user-on-ubuntu-quickstart
+1. Login as the desired user (not root) make sure the user has sudo privileges
 
-2. Login as the new user (if not so already -- no not recommend using root user).
+usermod -aG sudo username 
 
-2. Make sure you have dependencies:
+2. Create install directory
+
+mkdir everycash
+
+cd everycash
+
+3. Make sure you have dependencies:
 
 sudo apt-get install -y build-essential python-dev gcc g++ git cmake libboost-all-dev
 
@@ -22,7 +28,7 @@ sudo apt-get install git
 
 git clone https://github.com/hashratez/everycash.git
 
-6.From your directory
+6. From your directory
 
 mkdir build
 
@@ -31,6 +37,25 @@ cd build
 cmake ..
 
 make
+
+7.  Open ports on your firewall
+P2P Port: 18111
+RPC Port: 18112
+
+8. Start Everycash 
+
+....
+
+9. Create Wallet
+
+....
+
+10. Start mining!
+
+....
+
+
+
 
 
 

@@ -22,7 +22,17 @@ sudo apt-get install git
 
 git clone https://github.com/hashratez/everycash.git
 
-6. 
+6.From your directory
+
+mkdir build
+
+cd build
+
+cmake ..
+
+make
+
+
 
 ```
 // Copyright (c) 2012-2017, The CryptoNote developers, The Bytecoin developers

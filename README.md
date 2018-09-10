@@ -4,6 +4,8 @@ This install works for Ubuntu 16.04 (CLEAN OS)
 1. Make directory for install and cd to the directory, make sure the user has SUDO
 FYI: https://www.digitalocean.com/community/tutorials/how-to-create-a-sudo-user-on-ubuntu-quickstart
 
+2. Login as the new user (if not so already -- no not recommend using root user).
+
 2. Make sure you have dependencies:
 
 sudo apt-get install -y build-essential python-dev gcc g++ git cmake libboost-all-dev

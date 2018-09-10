@@ -4,7 +4,13 @@ This install works for Ubuntu 16.04 (CLEAN OS)
 
 1. Login as the desired user (not root) make sure the user has sudo privileges
 
-usermod -aG sudo username 
+sudo usermod -aG sudo username
+
+Get updates via:
+
+sudo apt-get update
+
+sudo apt-get upgrade
 
 2. Create install directory
 

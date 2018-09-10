@@ -52,6 +52,7 @@ cd ~/everycash/build/src
 Start the daemon:
 cd 
 ./EveryCashd
+(to run in the background or to keep running upon terminal exit use: "nohup ./EveryCashd &" )
 
 9. Create new wallet & address
 
@@ -65,8 +66,11 @@ cd ~/everycash/build/scr
 
 cd ~/everycash/build/scr
 
-./miner --threads 1 --log-level 3 --address <your address>
-  (thread is a core)
+./miner --threads 1 --log-level 3 --address YOUR-WALLET-ADDRESS-HERE
+
+Wallet address alaways starts with "ever" and looks something like this:
+everhaGXNwWPnekKav3DN11qUrqYDaNyrWNHHBBFi8w1jmYbVneog4z4jKI$f@GNh7ck9oR5PJwfjjWL7gStb3fZNX3g7kaqIIk2
+
 
 ....
 

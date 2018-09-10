@@ -42,9 +42,13 @@ make
 P2P Port: 18111
 RPC Port: 18112
 
-8. Start Everycash 
+8. Start Everycash by navigating to directory:
 
-....
+cd /everycash/build/src
+
+Start the daemon:
+cd 
+./EveryCashd
 
 9. Create Wallet
 

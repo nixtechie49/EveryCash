@@ -60,11 +60,16 @@ cd ~/everycash/build/scr
 
 (follow the simple instructions--make sure save your KEYS AND NEUMONIC SEED!)
 
-10. Start mining!
+10. Start mining to your new address
+
+cd ~/everycash/build/scr
+
+./miner --threads 1 --log-level 3 --address <your address>
+  (thread is a core)
 
 ....
 
-
+MUCH MORE TO FOLLOW ON GUI WALLET ETC....
 
 
 

@@ -38,7 +38,8 @@ cd build
 
 cmake ..
 
-make
+make 
+(this process can take several minutes--be patient!)
 
 7.  Open ports on your firewall (if you don't have one ufw is great)
 P2P Port: 18111

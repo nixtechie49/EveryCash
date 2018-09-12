@@ -2,10 +2,10 @@ Node Build
 
 This install works for Ubuntu 16.04 (CLEAN OS)
 
-1. Login as the desired user (not root) make sure the user has sudo privileges
-
+1. Login as the desired user (not root) make sure the user has sudo privileges.  You can run this command to make sure user is sudo.
+```
 sudo usermod -aG sudo username
-
+```
 Get updates via:
 
 sudo apt-get update

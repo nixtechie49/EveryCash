@@ -88,6 +88,8 @@ everhaGXNwWPnekKav3DN11qUrqYDaNyrWNHHBBFi8w1jmYbVneog4z4jKI$f@GNh7ck9oR5PJwfjjWL
 ....
 
 MUCH MORE TO FOLLOW ON GUI WALLET ETC....
+More info on CLI Wallet:
+https://github.com/turtlecoin/turtlecoin/wiki/Using-Zedwallet
 
 
 

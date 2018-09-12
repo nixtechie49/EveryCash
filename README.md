@@ -1,7 +1,6 @@
 Node Build
 
-This install works for Ubuntu 16.04
-This install also works on MintLinux 19  
+This install works for Ubuntu 16.04, 18.04 (see Linux-on-Windows despository) & This install also works on MintLinux 19  
 
 1. Login as the desired user (not root) make sure the user has sudo privileges.  You can run this command to make sure user is sudo.
 ```

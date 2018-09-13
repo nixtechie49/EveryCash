@@ -32,19 +32,19 @@ sudo git clone https://github.com/hashratez/everycash.git
 ```
 6. A new directory will be created for you install "everycash"
 ```
-cd everycash
+sudo cd everycash
 ```
 ```
-mkdir build
+sudo mkdir build
 ```
 ```
-cd build
+sudo cd build
 ```
 ```
-cmake ..
+sudo cmake ..
 ```
 ```
-make 
+sudo make 
 ```
 (this process can take several minutes--be patient!)
 
@@ -54,32 +54,32 @@ RPC Port: 18112
 
 8. Start Everycash by navigating to directory:
 ```
-cd ~/everycash/build/src
+sudo cd ~/everycash/build/src
 ```
 Start the daemon:
 ``` 
-./EveryCashd
+sudo ./EveryCashd
 ```
 (to run in the background or to keep running upon terminal exit use: 
 ```
-nohup ./EveryCashd &
+sudo nohup ./EveryCashd &
 ```
 
 9. Create new wallet & address
 ```
-cd ~/everycash/build/scr
+sudo cd ~/everycash/build/scr
 ```
 ```
-./zedwallet
+sudo ./zedwallet
 ```
 (follow the simple instructions--make sure save your KEYS AND NEUMONIC SEED!)
 
 10. Start mining to your new address
 ```
-cd ~/everycash/build/scr
+sudo cd ~/everycash/build/scr
 ```
 ```
-./miner --threads 1 --log-level 3 --address YOUR-WALLET-ADDRESS-HERE
+sudo ./miner --threads 1 --log-level 3 --address YOUR-WALLET-ADDRESS-HERE
 ```
 Wallet address alaways starts with "ever" and looks something like this:
 everhaGXNwWPnekKav3DN11qUrqYDaNyrWNHHBBFi8w1jmYbVneog4z4jKI$f@GNh7ck9oR5PJwfjjWL7gStb3fZNX3g7kaqIIk2

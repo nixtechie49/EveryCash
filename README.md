@@ -28,7 +28,7 @@ sudo apt-get install git
 ```
 5. Git the package
 ```
-git clone https://github.com/hashratez/everycash.git
+sudo git clone https://github.com/hashratez/everycash.git
 ```
 6. A new directory will be created for you install "everycash"
 ```

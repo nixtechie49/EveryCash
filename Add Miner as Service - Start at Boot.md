@@ -2,7 +2,7 @@ Create service file called "startminer.service" with nano editor
 ```
 sudo nano /etc/systemd/system/startminer.service
 ```
-Enter the following contents, replace USERNAME with username or path to the EveryCashD daemon
+Enter the following contents, replace USERNAME with username or path to the miner daemon
 ```
 Description=start miner
 

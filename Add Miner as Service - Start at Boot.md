@@ -1,3 +1,5 @@
+NODE MUST BE RUNNING FOR MINER TO WORK
+--------------------------------------
 Create service file called "startminer.service" with nano editor
 ```
 sudo nano /etc/systemd/system/startminer.service
